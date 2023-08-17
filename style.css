@@ -145,3 +145,22 @@ li {
     width: 230px;
     height: 230px;
 }
+
+.third-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.yui-quote {
+    font-weight: lighter;
+}
+
+.yui {
+    align-self: flex-end;
+    padding-right: 200px;
+}
