@@ -76,7 +76,9 @@ li {
 
 .eva-pilots {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .shinji {
@@ -84,11 +86,31 @@ li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 
 .shinji-image {
-    width: 300px;
     border-radius: 15px;
-    border: 4px solid #3882F6;
+    border: 4px solid #3882F6;  
+    object-fit: cover;
+    width: 230px;
+    height: 230px;
 }
+
+.asuka {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.asuka-image {
+    border-radius: 15px;
+    border: 4px solid #3882F6;  
+    object-fit: cover;
+    width: 230px;
+    height: 230px;
+}
+
 
