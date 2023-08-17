@@ -16,10 +16,13 @@ body {
 
 .header-text {
     padding-left: 200px;
+    font-size: 24px;
+    color: #F9F1F8;
 }
 
 ul {
     display: flex;
+    font-size: 18px;
     padding-right: 200px;
 }
 
@@ -31,4 +34,28 @@ li {
 
 .header-2 {
     display: flex;
+}
+
+.header-2-text-big {
+    font-size: 48px;
+    font-weight: extra-bold;
+    padding-left: 200px;
+    color: #F9FAF8;
+}
+
+.header-2-text-small {
+    padding-left: 200px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-button {
+    margin-left: 200px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+}
+
+.eva-image {
+    padding-right: 200px;
 }
