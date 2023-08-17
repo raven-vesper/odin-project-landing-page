@@ -113,4 +113,35 @@ li {
     height: 230px;
 }
 
+.rei {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 5px;
+}
 
+.rei-image {
+    border-radius: 15px;
+    border: 4px solid #3882F6;  
+    object-fit: cover;
+    width: 230px;
+    height: 230px;
+}
+
+.toji {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.toji-image {
+    border-radius: 15px;
+    border: 4px solid #3882F6;  
+    object-fit: cover;
+    width: 230px;
+    height: 230px;
+}
