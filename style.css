@@ -34,6 +34,7 @@ li {
 
 .header-2 {
     display: flex;
+    padding-top: 100px;
 }
 
 .header-2-text-big {
@@ -59,3 +60,35 @@ li {
 .eva-image {
     padding-right: 200px;
 }
+
+.second-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.second-block-text {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.eva-pilots {
+    display: flex;
+    justify-content: center;
+}
+
+.shinji {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.shinji-image {
+    width: 300px;
+    border-radius: 15px;
+    border: 4px solid #3882F6;
+}
+
